@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npm run precommit
+# Auto-fix staged files (Prettier write + ESLint fix)
+npm run precommit || exit 1

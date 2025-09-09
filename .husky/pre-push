@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Run full-repo checks before pushing to avoid CI failures
+npm run lint || exit 1
+npm run format:check || exit 1
+
