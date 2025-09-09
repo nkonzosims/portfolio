@@ -1,0 +1,16 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.eol": "\n",
+  "prettier.printWidth": 100,
+  "prettier.singleQuote": true,
+  "prettier.semi": true,
+  "prettier.trailingComma": "es5",
+  "prettier.arrowParens": "always",
+  "prettier.endOfLine": "lf",
+  "eslint.format.enable": true,
+  "eslint.validate": [
+    "typescript",
+    "html"
+  ]
+}
